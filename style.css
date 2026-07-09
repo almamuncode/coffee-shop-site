@@ -104,7 +104,8 @@ nav {
 }
 
 .card{
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     height: 250px;
     background-color: white;
     padding: 20px 30px;
@@ -256,4 +257,178 @@ footer a{
     padding: 30px 0px;
     color: beige;
     font-size: small;
+}
+
+
+
+/* ==========================
+   Tablet
+========================== */
+
+@media screen and (max-width: 992px) {
+
+    nav,
+    .our-story,
+    .menu-content,
+    .about-us,
+    .hours,
+    .open,
+    .footer-content {
+        width: 90%;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+    .nav-links {
+        gap: 25px;
+    }
+
+    .hero {
+        padding: 180px 30px;
+    }
+
+    .our-story {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .about-us-cards {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .open {
+        width: 90%;
+        background-size: cover;
+    }
+
+    .foot-top {
+        gap: 40px;
+    }
+}
+
+
+
+/* ==========================
+   Mobile
+========================== */
+
+@media screen and (max-width: 576px) {
+
+    nav {
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 120px 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .our-story {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .about-us {
+        width: 90%;
+    }
+
+    .about-us-cards {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hours {
+        width: 90%;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    .open {
+        width: 90%;
+        height: 450px;
+        background-size: cover;
+    }
+
+    .open-text {
+        width: auto;
+        margin: 20px;
+        top: 50px;
+    }
+
+    .time {
+        margin: auto;
+        top: 300px;
+    }
+
+    .footer-content {
+        width: 90%;
+    }
+
+    .foot-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .foot-bottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .foot-ul{
+        text-align: center;
+    }
 }
