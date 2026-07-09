@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.primary-btn {
+    background-color: #E9B44C;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+header {
+    background-color: #2E2622;
+}
+
+nav {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #E9B44C;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+    padding: 250px 0px;
+
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+        url("./image/bg-image.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.our-story{
+    max-width: 1280px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.our-story img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.story-content, .story-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.our-menu{
+    background-color: #F1E7D8;
+}
+
+.menu-content{
+    max-width: 1280px;
+    padding: 80px 0px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-us{
+    max-width: 1280px;
+    margin: 80px auto;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-us-cards{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 30px;
+gap: 100px;
+}
+
+.hours{
+    max-width: 1280px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hours-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table{
+    width: 700px;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #2E2622;
+}
+
+thead{
+    background-color: #2E2622;
+    color: #E9B44C;
+}
+
+tr{
+    border: 1px solid #2E2622;
+}
+td{
+    border: 1px solid #2E2622;
+    padding: 10px 20px;
+}
+
+th{
+    font-weight: 300;
+    padding: 10px 20px;
+}
+
+thead th{
+    font-weight: 700;
+}
+
+
+

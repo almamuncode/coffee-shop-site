@@ -1,11 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cool Coffee</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script> -->
 </head>
+
 <body>
-    <h1>This is a Coffee Shop</h1>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./image/cup.png" alt="">
+                <h2>Cool Coffee</h2>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+        <div style="display: flex; flex-direction: column; gap: 30px;">
+            <p style="color: #E9B44C; font-size: 20px;">Freshly Roasted. Daily</p>
+            <h1 style="color: white; font-size: 50px;">Your Perfect Cup of Coffee <br> Start Here</h1>
+            <p style="color: white; font-size: 14px;">Handcrafted coffee to make your everyday mornings a little more
+                special.</p>
+        </div>
+        <div>
+            <button class="primary-btn">Order Now</button>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <Section class="our-story">
+        <div><img src="./image/our-story.avif" alt=""></div>
+        <div class="story-content">
+            <div class="story-text">
+                <h2>Our Story</h2>
+                <p style="color: gray;">Since 2018, BrewCorner has been sourcing the finest coffee beans, roasting them
+                    our own way, and bringing them straight to your cup.</p>
+                <p style="color: gray;">Every cup carries care, love, and years of experience behind it.</p>
+            </div>
+            <div>
+                <button class="primary-btn">Explore Menu</button>
+            </div>
+        </div>
+    </Section>
+    <!-- Our Menu -->
+    <section class="our-menu">
+        <div class="menu-content">
+            <div>
+                <p style="color: #E9B44C; margin-bottom: 10px;">Our Menu</p>
+                <h1>Popular Picks</h1>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-coffee-icon lucide-coffee">
+                            <path d="M10 2v2" />
+                            <path d="M14 2v2" />
+                            <path
+                                d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
+                            <path d="M6 2v2" />
+                        </svg></div>
+                    <div class="card-text">
+                        <h3>Espresso</h3>
+                        <p>Bold and strong, made for true
+                            coffee lovers.</p>
+                        <p style="color: #E9B44C;">$5.00</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-coffee-icon lucide-coffee">
+                            <path d="M10 2v2" />
+                            <path d="M14 2v2" />
+                            <path
+                                d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
+                            <path d="M6 2v2" />
+                        </svg></div>
+                    <div class="card-text">
+                        <h3>Espresso</h3>
+                        <p>Bold and strong, made for true
+                            coffee lovers.</p>
+                        <p style="color: #E9B44C;">$5.00</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-coffee-icon lucide-coffee">
+                            <path d="M10 2v2" />
+                            <path d="M14 2v2" />
+                            <path
+                                d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
+                            <path d="M6 2v2" />
+                        </svg></div>
+                    <div class="card-text">
+                        <h3>Espresso</h3>
+                        <p>Bold and strong, made for true
+                            coffee lovers.</p>
+                        <p style="color: #E9B44C;">$5.00</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-coffee-icon lucide-coffee">
+                            <path d="M10 2v2" />
+                            <path d="M14 2v2" />
+                            <path
+                                d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
+                            <path d="M6 2v2" />
+                        </svg></div>
+                    <div class="card-text">
+                        <h3>Espresso</h3>
+                        <p>Bold and strong, made for true
+                            coffee lovers.</p>
+                        <p style="color: #E9B44C;">$5.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about us -->
+    <section class="about-us">
+        <div>
+            <p style="color: #E9B44C; margin-bottom: 20px;">Why Us</p>
+            <h1>What Makes Us Different</h1>
+        </div>
+        <div class="about-us-cards">
+            <div>
+                <h3>Fresh Beans</h3>
+                <p>Coffee made fresh from beans, every single day.</p>
+            </div>
+            <div>
+                <h3>Fast Delivery</h3>
+                <p>Delivered within 30 minutes of ordering.</p>
+            </div>
+            <div>
+                <h3>Made With Love</h3>
+                <p>Every cup is made with our care and love.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opening Hours -->
+
+    <section class="hours">
+        <div class="hours-text">
+            <p style="color: #E9B44C; margin-bottom: 20px;">Opening Hours</p>
+            <h1>When We're Opne</h1>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Mon-Fri</th>
+                        <td>7.00am-9.00pm</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>8.00am-11.00pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sunday</th>
+                        <td>7.00am-9.00pm</td>
+                    </tr>
+                    <tr>
+                        <th>Public Hodily</th>
+                        <td>7.00am-9.00pm</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 </body>
+
 </html>
